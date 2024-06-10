@@ -1,7 +1,7 @@
 # CO2-VEQ-inter
 ::The source code for plotting the vapor-liquid equilibrium (VLE) data of CO2 using matplotlib and mpld3 libraries::
 
-<img src = "./showcase.png" width="60%">
+<img src = "./showcase2.png" width="60%">
 
 ## Installation
 
@@ -32,14 +32,14 @@ Or, you can just use the [`vapor.csv`](./vapor.csv) file provided in this reposi
 1. Place the downloaded `vapor.csv` file in the same directory as your Python script.
 2. Run the following command in your terminal to execute the script and generate an interactive HTML plot:
     ```bash
-    python3 plotvapor.py
+    python3 plotVLE.py
     ```
 
-This will generate a file named `vapor.html` in the same directory, which contains the interactive plot.
+This will generate a file named `CO2VLE.html` in the same directory, which contains the interactive plot.
 
 ## Showcase
 
-You can download the [`vapor.html`](./vapor.html) file in this repository to see how the interactive plot looks like.
+You can download the [`CO2VLE.html`](./CO2VLE.html) file in this repository to see how the interactive plot looks like.
 
 ## License
 This project is licensed under the MIT License.
